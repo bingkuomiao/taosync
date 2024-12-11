@@ -7,7 +7,7 @@ on:
 
 env:
   APP_NAME: johnSync
-  DOCKER_USER: dr34m
+  DOCKER_USER: bingkuomiao
   DOCKER_NAME: john-sync
 
 jobs:
