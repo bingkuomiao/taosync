@@ -155,7 +155,7 @@
 				}
 
 				.can-click:hover {
-					background-color: #F5D6D9;//!!!
+					background-color: #F5D6D9 !important;//!!!
 				}
 
 				.top-left {
