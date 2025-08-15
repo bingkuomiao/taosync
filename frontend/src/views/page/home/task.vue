@@ -25,7 +25,7 @@
 								</span>
 								<el-popover v-else placement="top-end" title="错误原因" width="200" trigger="hover"
 									:content="scope.row.errMsg">
-									<span slot="reference">失败，<span style="color: #409eff;">原因</span></span>
+									<span slot="reference">失败，<span style="color: #E84A5F;">原因</span></span>
 								</el-popover>
 							</template>
 						</div>

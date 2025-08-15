@@ -344,7 +344,7 @@
 <style lang="scss" scoped>
 	.taskCurrent {
 		.current-box {
-			background-color: #100c2a;
+			background-color: #F5D6D9;
 			height: calc(100% - 12px);
 			padding: 2px 10px;
 			width: 100%;
@@ -420,8 +420,8 @@
 						}
 
 						.is-current {
-							color: #409eff;
-							border-right: 3px solid #409eff;
+							color: #E84A5F;
+							border-right: 3px solid #E84A5F;
 							background-color: rgba(64, 158, 255, 0.4);
 						}
 					}
