@@ -119,7 +119,7 @@
 			}
 
 			.lay-left-menu {
-	                        background-color: #F5F0E8 !important;//???
+	            background-color: #F5F0E8 !important;
 				height: 100%;
 			}
 
