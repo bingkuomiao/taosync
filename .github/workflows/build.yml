@@ -8,7 +8,7 @@ on:
 env:
   APP_NAME: taoSync
   DOCKER_USER: bingkuomiao445
-  DOCKER_NAME: taos_sync
+  DOCKER_NAME: tao_sync
 
 jobs:
   get-version:
