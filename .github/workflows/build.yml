@@ -6,7 +6,7 @@ on:
     paths: [ 'version.txt' ]
 
 env:
-  APP_NAME: taosync
+  APP_NAME: taoSync
   DOCKER_USER: bingkuomiao445
   DOCKER_NAME: taosync2
 
