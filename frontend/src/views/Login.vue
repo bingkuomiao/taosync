@@ -268,6 +268,7 @@
 				text-align: right;
 				cursor: pointer;
 				color: #F56C6C;
+	            font-weight: bold;
 			}
 		}
 	}
