@@ -29,11 +29,12 @@
 
 .el-switch__core {
 	background: #E84A5F;
-	border: 1px solid #FFD700;
+	border: 1px solid #E84A5F;
 }
 
 .el-switch.is-checked .el-switch__core {
-  background-color: #4CAF50;/*自定义打开状态的滑道颜色*/
+  background-color: #4CAF50;
+	 border: 1px solid #4CAF50;
 }
 .el-switch__core:after {
 	background-color: #FFD700;
@@ -94,8 +95,8 @@
 
 .el-button--danger {
     color: #FFF;
-    background-color: #FFD700;
-    border-color: #FFD700;
+    background-color: #F56C6C;
+    border-color: #F56C6C;
 }
 
 .el-button--warning {
