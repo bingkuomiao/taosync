@@ -28,16 +28,16 @@
 }
 
 .el-switch__core {
-	background: #E84A5F;
+	background: #E84A5F !important;
 	border: 1px solid #E84A5F;
 }
 
 .el-switch.is-checked .el-switch__core {
-  background-color: #4CAF50;
+  background-color: #4CAF50 !important;
 	 border: 1px solid #4CAF50;
 }
 .el-switch__core:after {
-	background-color: #FFD700;
+	 background-color: #FFD700;
 }
 
 .el-form-item__label {
