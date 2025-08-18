@@ -96,7 +96,7 @@
 
 		.el-icon-refresh-right {
 			cursor: pointer;
-			color: #1890ff;
+			color: #4CAF50;
 		}
 
 		.el-icon-loading {

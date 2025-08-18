@@ -765,7 +765,7 @@
 		}
 
 		.to-link {
-			color: #409eff;
+			color: #E84A5F;
 			text-decoration: underline;
 			cursor: pointer;
 		}

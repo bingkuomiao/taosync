@@ -90,11 +90,11 @@
 		left: 0;
 		right: 0;
 		display: flex;
-		background-color: #191b2b;
-		color: #FFFFFF;
+		background-color: #F5F0E8;
+		color: #1A1A1A;
 
 		.lay-left {
-			background-color: #001529;
+			background-color: #F5F0E8;
 
 			.left-top-logo {
 				height: 67px;
@@ -119,6 +119,7 @@
 			}
 
 			.lay-left-menu {
+	            background-color: #F5F0E8 !important;
 				height: 100%;
 			}
 
@@ -130,13 +131,14 @@
 		.lay-right {
 			width: 100%;
 			height: 100%;
+	                background-color: #F5F0E8;
 
 			.lay-right-top {
 				height: 50px;
 				display: flex;
 				justify-content: space-between;
 				align-items: center;
-				border-bottom: 1px solid #333333;
+				border-bottom: 1px solid #1A1A1A;
 				font-size: 16px;
 
 				.top-icon {
@@ -153,7 +155,7 @@
 				}
 
 				.can-click:hover {
-					background-color: #393c4f;
+					background-color: #F5D6D9 !important;//!!!
 				}
 
 				.top-left {

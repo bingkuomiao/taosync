@@ -19,7 +19,7 @@
 			</div>
 			<div class="card-item card-add" @click="addShow" v-if="!getLoading">
 				<template v-if="alistList.length == 0">
-					暂无引擎，请<span style="color: #409eff;">新增</span>
+					暂无引擎，请<span style="color: #4CAF50;">新增</span>
 				</template>
 				<span v-else>新增</span>
 			</div>
@@ -209,7 +209,7 @@
 			width: 100%;
 
 			.card-item {
-				background-color: #292b3c;
+				background-color: #F5D6D9;
 				border-radius: 5px;
 				border: 1px solid;
 				border-color: transparent;
@@ -228,7 +228,7 @@
 
 						.card-item-remark {
 							margin-left: 6px;
-							color: #d6d12f;
+							color: #4CAF50;
 							max-width: 120px;
 							white-space: nowrap;
 							overflow: hidden;
@@ -259,13 +259,13 @@
 			}
 
 			.card-item:hover {
-				border-color: #409eff;
-				background-color: #3d415a;
+				border-color: #FFD700;
+				background-color: #FF8A9A;
 			}
 
 			.card-add:hover {
 				font-size: 32px;
-				color: #409eff;
+				color: #4CAF50;
 				font-weight: bold;
 			}
 		}

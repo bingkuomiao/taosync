@@ -88,6 +88,7 @@
 				})
 				// ECharts 配置
 				const option = {
+                                        backgroundColor: '#F5F0E8',
 					color: ['rgb(79, 89, 104)', 'rgb(64, 158, 255)', 'rgb(103, 194, 58)', 'rgb(245, 108, 108)',
 						'rgb(230, 162, 60)'
 					],
@@ -123,7 +124,8 @@
 					}]
 				};
 				if (!this.chart) {
-					this.chart = echarts.init(this.$refs.taskCurrentEcharts, 'dark');
+
+					this.chart = echarts.init(this.$refs.taskCurrentEcharts);
 				}
 				this.chart.setOption(option);
 			},

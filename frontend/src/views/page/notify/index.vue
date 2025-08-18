@@ -23,7 +23,7 @@
 			</div>
 			<div class="card-item card-add" @click="addShow" v-if="!loading">
 				<template v-if="dataList.length == 0">
-					暂无通知配置，请<span style="color: #409eff;">新增</span>
+					暂无通知配置，请<span style="color: #4CAF50;">新增</span>
 				</template>
 				<span v-else>新增</span>
 			</div>
@@ -332,14 +332,14 @@
 <style lang="scss">
 	.tip-box {
 		margin: 0 0 20px 100px;
-		color: #909bd4;
+		color: #1A1A1A;
 
 		a {
-			color: #409eff;
+			color: #FF8A9A;
 		}
 
 		a:hover {
-			color: #66b1ff;
+			color: #F5D6D9;
 		}
 	}
 
@@ -362,7 +362,7 @@
 			width: 100%;
 
 			.card-item {
-				background-color: #292b3c;
+				background-color: #F5D6D9;
 				border-radius: 5px;
 				border: 1px solid;
 				border-color: transparent;
@@ -386,7 +386,7 @@
 					}
 
 					.enable-enable {
-						color: #67c23a;
+						color: #4CAF50;
 					}
 
 					.enable-disable {
@@ -411,13 +411,13 @@
 			}
 
 			.card-item:hover {
-				border-color: #409eff;
-				background-color: #3d415a;
+				border-color: #FFD700;
+				background-color: #FF8A9A;
 			}
 
 			.card-add:hover {
 				font-size: 32px;
-				color: #409eff;
+				color: #4CAF50;
 				font-weight: bold;
 			}
 		}

@@ -1,7 +1,7 @@
 <template>
 	<div class="login">
 		<div class="loginArea">
-			<div class="logo">桃桃的自动同步工具</div>
+			<div class="logo">自动同步工具</div>
 			<div class="title">密码登录</div>
 			<el-form :model="loginForm" :rules="rules" ref="loginForm" label-width="0">
 				<el-form-item prop="userName">
@@ -166,6 +166,7 @@
 <style lang="scss" scoped>
 	.login {
 		display: flex;
+	        justify-content: center;
 		align-items: center;
 		position: fixed;
 		top: 0;
@@ -176,27 +177,26 @@
 		background-size: cover;
 
 		.loginArea {
-			background: rgba(16, 30, 65, 0.95);
+			background: rgba(245, 214, 217, 0.95);
 			width: 520px;
 			box-sizing: border-box;
 			padding: 30px 60px;
 			border-radius: 4px;
-			margin-left: 5%;
-			color: #FFF;
+			color: #1A1A1A;
 
 			:deep(.el-input) {
 				font-size: 20px;
 
 				.el-input__inner {
 					background-color: transparent;
-					color: #FFF;
+					color: #4CAF50;
 					height: 60px;
 					font-size: 20px;
-					border: 1px solid #FFF;
+					border: 1px solid #FFD700;
 				}
 
 				.el-input__inner:focus {
-					border: 1px solid #409eff;
+					border: 1px solid #E84A5F;
 				}
 			}
 
@@ -222,6 +222,7 @@
 			}
 
 			.logo {
+	                        color: #1A1A1A;
 				background-image: url('/logo-200-64.png');
 				background-position: center 0;
 				background-repeat: no-repeat;
@@ -236,7 +237,7 @@
 				margin-top: 60px;
 				font-size: 24px;
 				font-weight: 500;
-				color: #ffffff;
+				color: #1A1A1A;
 				line-height: 28px;
 				text-align: center;
 				padding-bottom: 13px;
@@ -266,7 +267,8 @@
 			.foget {
 				text-align: right;
 				cursor: pointer;
-				color: #409eff;
+				color: #F56C6C;
+	                        font-weight: bold;
 			}
 		}
 	}

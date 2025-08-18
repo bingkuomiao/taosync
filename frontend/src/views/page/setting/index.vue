@@ -110,7 +110,7 @@
 
 		.user-info {
 			padding: 24px 16px;
-			background-color: #292b3c;
+			background-color: #F5D6D9;
 			width: 352px;
 			box-sizing: border-box;
 			border-radius: 3px;
@@ -128,7 +128,7 @@
 					width: 70px;
 					text-align: justify;
 					margin-right: 16px;
-					color: #909bd4;
+					color: #1A1A1A;
 				}
 
 				.label::after {
@@ -145,7 +145,7 @@
 				padding: 16px;
 				width: 320px;
 				margin-bottom: 32px;
-				background-color: #292b3c;
+				background-color: #F5D6D9;
 
 				.setting-box-item {
 					width: 320px;
@@ -203,11 +203,11 @@
 				margin-right: 16px;
 				
 				a {
-					color: #409eff;
+					color: #8BC34A;
 				}
 				
 				a:hover {
-					color: #66b1ff;
+					color: #4CAF50;
 				}
 			}
 
